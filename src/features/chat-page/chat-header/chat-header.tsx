@@ -1,4 +1,4 @@
-// import { ExtensionModel } from "@/features/extensions-page/extension-services/models";
+import { ExtensionModel } from "@/features/extensions-page/extension-services/models";
 import { CHAT_DEFAULT_PERSONA } from "@/features/theme/theme-config";
 import { VenetianMask } from "lucide-react";
 import { FC } from "react";
@@ -10,7 +10,7 @@ import { PersonaDetail } from "./persona-detail";
 interface Props {
   chatThread: ChatThreadModel;
   chatDocuments: Array<ChatDocumentModel>;
-  // extensions: Array<ExtensionModel>;
+  extensions: Array<ExtensionModel>;
 }
 
 export const ChatHeader: FC<Props> = (props) => {

@@ -1,5 +1,5 @@
 import { AddExtension } from "@/features/extensions-page/add-extension/add-new-extension";
-import { ExtensionCard } from "@/features/extensions-page/extension-card/extension-card";
+// import { ExtensionCard } from "@/features/extensions-page/extension-card/extension-card";
 import { ExtensionModel } from "@/features/extensions-page/extension-services/models";
 import { PersonaCard } from "@/features/persona-page/persona-card/persona-card";
 import { PersonaModel } from "@/features/persona-page/persona-services/models";
@@ -34,7 +34,7 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
           description={AI_DESCRIPTION}
         ></Hero>
         <div className="container max-w-4xl flex gap-20 flex-col">
-          <div>
+          {/* <div>
             <h2 className="text-2xl font-bold mb-3">Extensions</h2>
 
             {props.extensions && props.extensions.length > 0 ? (
@@ -48,12 +48,12 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
                     />
                   );
                 })}
-              </div>
-            ) :
+              </div> */}
+            {/* ) :
               <p className="text-muted-foreground max-w-xl">No extentions created</p>
-            }
+            } */}
 
-          </div>
+          {/* </div> */}
           <div>
             <h2 className="text-2xl font-bold mb-3">Personas</h2>
 

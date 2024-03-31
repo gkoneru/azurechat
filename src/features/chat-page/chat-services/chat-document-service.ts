@@ -13,7 +13,11 @@ import { EnsureIndexIsCreated } from "./azure-ai-search/azure-ai-search";
 import { CHAT_DOCUMENT_ATTRIBUTE, ChatDocumentModel } from "./models";
 
 const MAX_UPLOAD_DOCUMENT_SIZE: number = 20000000;
+<<<<<<< HEAD
 const CHUNK_SIZE = 2300;
+=======
+const CHUNK_SIZE = 5000;
+>>>>>>> 863689f (all is well)
 // 25% overlap
 const CHUNK_OVERLAP = CHUNK_SIZE * 0.25;
 

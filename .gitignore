@@ -34,3 +34,7 @@ next-env.d.ts
 .azure/
 infra/aad_setup.sh
 .vscode
+<<<<<<< HEAD
+=======
+.azure
+>>>>>>> 863689f (all is well)

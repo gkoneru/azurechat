@@ -84,11 +84,7 @@ export const SimilaritySearch = async (
             vector: embeddings.data[0].embedding,
             fields: ["embedding"],
             kind: "vector",
-<<<<<<< HEAD
-            kNearestNeighborsCount: 10,
-=======
-            kNearestNeighborsCount: 20,
->>>>>>> 863689f (all is well)
+            kNearestNeighborsCount: 30,
           },
         ],
       },
@@ -152,11 +148,7 @@ export const ExtensionSimilaritySearch = async (props: {
             vector: embeddings.data[0].embedding,
             fields: vectors,
             kind: "vector",
-<<<<<<< HEAD
-            kNearestNeighborsCount: 10,
-=======
-            kNearestNeighborsCount: 20,
->>>>>>> 863689f (all is well)
+            kNearestNeighborsCount: 30,
           },
         ],
       },
